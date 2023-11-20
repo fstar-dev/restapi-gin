@@ -3,10 +3,10 @@ package handlerRegister
 import (
 	"net/http"
 
+	gpc "github.com/fstar-dev/go-playground-converter"
+	registerAuth "github.com/fstar-dev/restapi-gin/controllers/auth-controllers/register"
+	util "github.com/fstar-dev/restapi-gin/utils"
 	"github.com/gin-gonic/gin"
-	registerAuth "github.com/restuwahyu13/gin-rest-api/controllers/auth-controllers/register"
-	util "github.com/restuwahyu13/gin-rest-api/utils"
-	gpc "github.com/restuwahyu13/go-playground-converter"
 	"github.com/sirupsen/logrus"
 )
 

@@ -3,8 +3,8 @@ package model
 import (
 	"time"
 
+	util "github.com/fstar-dev/restapi-gin/utils"
 	"github.com/google/uuid"
-	util "github.com/restuwahyu13/gin-rest-api/utils"
 	"gorm.io/gorm"
 )
 

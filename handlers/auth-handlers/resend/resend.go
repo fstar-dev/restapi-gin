@@ -3,10 +3,10 @@ package handlerResend
 import (
 	"net/http"
 
+	gpc "github.com/fstar-dev/go-playground-converter"
+	resendAuth "github.com/fstar-dev/restapi-gin/controllers/auth-controllers/resend"
+	util "github.com/fstar-dev/restapi-gin/utils"
 	"github.com/gin-gonic/gin"
-	resendAuth "github.com/restuwahyu13/gin-rest-api/controllers/auth-controllers/resend"
-	util "github.com/restuwahyu13/gin-rest-api/utils"
-	gpc "github.com/restuwahyu13/go-playground-converter"
 	"github.com/sirupsen/logrus"
 )
 

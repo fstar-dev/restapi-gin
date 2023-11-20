@@ -3,9 +3,9 @@ package handlerResultsStudent
 import (
 	"net/http"
 
+	resultsStudent "github.com/fstar-dev/restapi-gin/controllers/student-controllers/results"
+	util "github.com/fstar-dev/restapi-gin/utils"
 	"github.com/gin-gonic/gin"
-	resultsStudent "github.com/restuwahyu13/gin-rest-api/controllers/student-controllers/results"
-	util "github.com/restuwahyu13/gin-rest-api/utils"
 )
 
 type handler struct {

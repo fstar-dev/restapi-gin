@@ -5,11 +5,11 @@ info:
   description: Example go using gin framework implementation rest api
   contact:
     name: Restu Wahyu Saputra
-    url: https://github.com/restuwahyu13
-    email: restuwahyu13@gmail.com
+    url: https://github.com/fstar-dev
+    email: fstar-dev@gmail.com
   license:
     name: MIT
-    url: https://github.com/restuwahyu13/gin-rest-api/blob/main/README.md
+    url: https://github.com/fstar-dev/restapi-gin/blob/main/README.md
 servers:
   - url: 'http://{host}:4000/api/v1'
     description: go service api server endpoint application
@@ -41,7 +41,7 @@ paths:
                 email:
                   type: string
                   format: email
-                  example: restuwahyu13@zetmail.com
+                  example: fstar-dev@zetmail.com
                 password:
                   type: string
                   format: password
@@ -97,7 +97,7 @@ paths:
                 email:
                   type: string
                   format: email
-                  example: restuwahyu13@zetmail.com
+                  example: fstar-dev@zetmail.com
                 password:
                   type: string
                   format: password
@@ -199,7 +199,7 @@ paths:
                 email:
                   type: string
                   format: email
-                  example: restuwahyu13@zetmail.com
+                  example: fstar-dev@zetmail.com
               required:
                 - email
       responses:
@@ -249,7 +249,7 @@ paths:
                 email:
                   type: string
                   format: email
-                  example: restuwahyu13@zetmail.com
+                  example: fstar-dev@zetmail.com
               required:
                 - email
       responses:

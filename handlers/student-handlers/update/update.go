@@ -3,10 +3,10 @@ package handlerUpdateStudent
 import (
 	"net/http"
 
+	gpc "github.com/fstar-dev/go-playground-converter"
+	updateStudent "github.com/fstar-dev/restapi-gin/controllers/student-controllers/update"
+	util "github.com/fstar-dev/restapi-gin/utils"
 	"github.com/gin-gonic/gin"
-	updateStudent "github.com/restuwahyu13/gin-rest-api/controllers/student-controllers/update"
-	util "github.com/restuwahyu13/gin-rest-api/utils"
-	gpc "github.com/restuwahyu13/go-playground-converter"
 )
 
 type handler struct {

@@ -3,10 +3,10 @@ package handlerDeleteStudent
 import (
 	"net/http"
 
+	gpc "github.com/fstar-dev/go-playground-converter"
+	deleteStudent "github.com/fstar-dev/restapi-gin/controllers/student-controllers/delete"
+	util "github.com/fstar-dev/restapi-gin/utils"
 	"github.com/gin-gonic/gin"
-	deleteStudent "github.com/restuwahyu13/gin-rest-api/controllers/student-controllers/delete"
-	util "github.com/restuwahyu13/gin-rest-api/utils"
-	gpc "github.com/restuwahyu13/go-playground-converter"
 )
 
 type handler struct {

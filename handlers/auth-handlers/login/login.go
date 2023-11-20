@@ -3,10 +3,10 @@ package handlerLogin
 import (
 	"net/http"
 
+	gpc "github.com/fstar-dev/go-playground-converter"
+	loginAuth "github.com/fstar-dev/restapi-gin/controllers/auth-controllers/login"
+	util "github.com/fstar-dev/restapi-gin/utils"
 	"github.com/gin-gonic/gin"
-	loginAuth "github.com/restuwahyu13/gin-rest-api/controllers/auth-controllers/login"
-	util "github.com/restuwahyu13/gin-rest-api/utils"
-	gpc "github.com/restuwahyu13/go-playground-converter"
 	"github.com/sirupsen/logrus"
 )
 

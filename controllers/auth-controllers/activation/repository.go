@@ -3,7 +3,7 @@ package activationAuth
 import (
 	"time"
 
-	model "github.com/restuwahyu13/gin-rest-api/models"
+	model "github.com/fstar-dev/restapi-gin/models"
 	"gorm.io/gorm"
 )
 

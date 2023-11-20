@@ -4,12 +4,12 @@ import (
 	"log"
 
 	helmet "github.com/danielkov/gin-helmet"
+	config "github.com/fstar-dev/restapi-gin/configs"
+	route "github.com/fstar-dev/restapi-gin/routes"
+	util "github.com/fstar-dev/restapi-gin/utils"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
-	config "github.com/restuwahyu13/gin-rest-api/configs"
-	route "github.com/restuwahyu13/gin-rest-api/routes"
-	util "github.com/restuwahyu13/gin-rest-api/utils"
 )
 
 func main() {

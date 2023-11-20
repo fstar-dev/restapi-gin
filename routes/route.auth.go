@@ -1,19 +1,19 @@
 package route
 
 import (
+	activationAuth "github.com/fstar-dev/restapi-gin/controllers/auth-controllers/activation"
+	forgotAuth "github.com/fstar-dev/restapi-gin/controllers/auth-controllers/forgot"
+	loginAuth "github.com/fstar-dev/restapi-gin/controllers/auth-controllers/login"
+	registerAuth "github.com/fstar-dev/restapi-gin/controllers/auth-controllers/register"
+	resendAuth "github.com/fstar-dev/restapi-gin/controllers/auth-controllers/resend"
+	resetAuth "github.com/fstar-dev/restapi-gin/controllers/auth-controllers/reset"
+	handlerActivation "github.com/fstar-dev/restapi-gin/handlers/auth-handlers/activation"
+	handlerForgot "github.com/fstar-dev/restapi-gin/handlers/auth-handlers/forgot"
+	handlerLogin "github.com/fstar-dev/restapi-gin/handlers/auth-handlers/login"
+	handlerRegister "github.com/fstar-dev/restapi-gin/handlers/auth-handlers/register"
+	handlerResend "github.com/fstar-dev/restapi-gin/handlers/auth-handlers/resend"
+	handlerReset "github.com/fstar-dev/restapi-gin/handlers/auth-handlers/reset"
 	"github.com/gin-gonic/gin"
-	activationAuth "github.com/restuwahyu13/gin-rest-api/controllers/auth-controllers/activation"
-	forgotAuth "github.com/restuwahyu13/gin-rest-api/controllers/auth-controllers/forgot"
-	loginAuth "github.com/restuwahyu13/gin-rest-api/controllers/auth-controllers/login"
-	registerAuth "github.com/restuwahyu13/gin-rest-api/controllers/auth-controllers/register"
-	resendAuth "github.com/restuwahyu13/gin-rest-api/controllers/auth-controllers/resend"
-	resetAuth "github.com/restuwahyu13/gin-rest-api/controllers/auth-controllers/reset"
-	handlerActivation "github.com/restuwahyu13/gin-rest-api/handlers/auth-handlers/activation"
-	handlerForgot "github.com/restuwahyu13/gin-rest-api/handlers/auth-handlers/forgot"
-	handlerLogin "github.com/restuwahyu13/gin-rest-api/handlers/auth-handlers/login"
-	handlerRegister "github.com/restuwahyu13/gin-rest-api/handlers/auth-handlers/register"
-	handlerResend "github.com/restuwahyu13/gin-rest-api/handlers/auth-handlers/resend"
-	handlerReset "github.com/restuwahyu13/gin-rest-api/handlers/auth-handlers/reset"
 	"gorm.io/gorm"
 )
 

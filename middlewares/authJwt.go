@@ -3,8 +3,8 @@ package middleware
 import (
 	"net/http"
 
+	util "github.com/fstar-dev/restapi-gin/utils"
 	"github.com/gin-gonic/gin"
-	util "github.com/restuwahyu13/gin-rest-api/utils"
 )
 
 type UnathorizatedError struct {

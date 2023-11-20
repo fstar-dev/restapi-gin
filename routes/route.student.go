@@ -1,18 +1,18 @@
 package route
 
 import (
+	createStudent "github.com/fstar-dev/restapi-gin/controllers/student-controllers/create"
+	deleteStudent "github.com/fstar-dev/restapi-gin/controllers/student-controllers/delete"
+	resultStudent "github.com/fstar-dev/restapi-gin/controllers/student-controllers/result"
+	resultsStudent "github.com/fstar-dev/restapi-gin/controllers/student-controllers/results"
+	updateStudent "github.com/fstar-dev/restapi-gin/controllers/student-controllers/update"
+	handlerCreateStudent "github.com/fstar-dev/restapi-gin/handlers/student-handlers/create"
+	handlerDeleteStudent "github.com/fstar-dev/restapi-gin/handlers/student-handlers/delete"
+	handlerResultStudent "github.com/fstar-dev/restapi-gin/handlers/student-handlers/result"
+	handlerResultsStudent "github.com/fstar-dev/restapi-gin/handlers/student-handlers/results"
+	handlerUpdateStudent "github.com/fstar-dev/restapi-gin/handlers/student-handlers/update"
+	middleware "github.com/fstar-dev/restapi-gin/middlewares"
 	"github.com/gin-gonic/gin"
-	createStudent "github.com/restuwahyu13/gin-rest-api/controllers/student-controllers/create"
-	deleteStudent "github.com/restuwahyu13/gin-rest-api/controllers/student-controllers/delete"
-	resultStudent "github.com/restuwahyu13/gin-rest-api/controllers/student-controllers/result"
-	resultsStudent "github.com/restuwahyu13/gin-rest-api/controllers/student-controllers/results"
-	updateStudent "github.com/restuwahyu13/gin-rest-api/controllers/student-controllers/update"
-	handlerCreateStudent "github.com/restuwahyu13/gin-rest-api/handlers/student-handlers/create"
-	handlerDeleteStudent "github.com/restuwahyu13/gin-rest-api/handlers/student-handlers/delete"
-	handlerResultStudent "github.com/restuwahyu13/gin-rest-api/handlers/student-handlers/result"
-	handlerResultsStudent "github.com/restuwahyu13/gin-rest-api/handlers/student-handlers/results"
-	handlerUpdateStudent "github.com/restuwahyu13/gin-rest-api/handlers/student-handlers/update"
-	middleware "github.com/restuwahyu13/gin-rest-api/middlewares"
 	"gorm.io/gorm"
 )
 

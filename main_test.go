@@ -6,10 +6,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/fstar-dev/go-supertest/supertest"
+	util "github.com/fstar-dev/restapi-gin/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/assert/v2"
-	util "github.com/restuwahyu13/gin-rest-api/utils"
-	"github.com/restuwahyu13/go-supertest/supertest"
 	. "github.com/smartystreets/goconvey/convey"
 	"syreclabs.com/go/faker"
 )
@@ -250,7 +250,7 @@ func TestResendHandler(t *testing.T) {
 		Convey("Resend Token If Account Is Active", func() {
 
 			payload := gin.H{
-				"email": "restuwahyu13@zetmail.com",
+				"email": "fstar-dev@zetmail.com",
 			}
 
 			test := supertest.NewSuperTest(router, t)

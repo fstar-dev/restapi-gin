@@ -1,8 +1,8 @@
 package util
 
 import (
+	gpc "github.com/fstar-dev/go-playground-converter"
 	"github.com/go-playground/validator/v10"
-	gpc "github.com/restuwahyu13/go-playground-converter"
 )
 
 func GoValidator(s interface{}, config []gpc.ErrorMetaConfig) (interface{}, int) {
